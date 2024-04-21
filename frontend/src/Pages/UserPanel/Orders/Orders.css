@@ -1,0 +1,47 @@
+.orders-container {
+  display: flex;
+  flex-direction: column;
+  /* width: 80%; */
+}
+
+.orders-container h1 {
+  margin-top: 30px;
+  color: var(--purpleDark-color);
+}
+
+.order-table {
+  width: 90%;
+  background-color: var(--Header-color) !important;
+  border: 1px solid rgb(237, 231, 231);
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 15px;
+  margin: 20px 20px;
+  text-align: center;
+}
+.order-details-title {
+  margin: 20px 0px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.margin-top-order {
+  margin-top: 10px;
+}
+
+.span-orderCreatedAt {
+  padding: 5px;
+  background-color: yellow;
+}
+
+.table-oraderDetails td {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+.table-oraderDetails th {
+  font-size: 1.1rem;
+  color: black;
+}
+
+.btn-toBackOrders {
+  font-size: 1.5rem;
+}

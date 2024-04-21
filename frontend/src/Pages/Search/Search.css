@@ -1,0 +1,37 @@
+.search-container {
+  width: 90%;
+  margin: auto;
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; */
+}
+
+.search-bar-search {
+  width: 40% !important;
+  background-color: var(--purpleDark-color);
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.search-bar-searchpage-input {
+  width: 100% !important;
+  background-color: var(--purpleDark-color);
+  color: white;
+}
+
+.search-bar-searchpage::placeholder {
+  color: white;
+}
+
+.icon-search-searchpage {
+  color: white;
+}
+
+.search-title-course {
+    text-align: right;
+    color: var(--purpleDark-color);
+    font-weight: 200;
+    font-size: 3rem;
+}

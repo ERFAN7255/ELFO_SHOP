@@ -1,0 +1,157 @@
+.first-header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  background-color: var(--Header-color);
+}
+#logo-header {
+  width: 200px;
+}
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 20px 10px 10px 20px;
+}
+.btn-header-buy {
+  padding: 5px;
+  background-color: unset;
+  border-radius: 10px;
+  font-size: 16px;
+  font-family: lalezar;
+  background-color: var(--purpleDark-color);
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+.btn-header-login {
+  padding: 5px;
+  background-color: unset;
+  border-radius: 10px;
+  font-size: 16px;
+  font-family: lalezar;
+  background-color: var(--purpleDark-color);
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+.btn-by,
+.user {
+  /* mask-type: 40px; */
+  /* font-size: 30px; */
+  margin-left: 10px;
+}
+.btn-header-buy:hover,
+.btn-header-login:hover {
+  background-color: rgb(108, 50, 159);
+}
+.logo-header {
+  border-radius: 50%;
+  margin-right: 20px;
+}
+.search {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+}
+.icon-search {
+  /* margin-left: 10px; */
+  background-color: unset;
+  border: 0;
+  cursor: pointer;
+  font-size: 20px;
+  padding: 10px;
+  color: var(--purpleDark-color);
+  text-align: center;
+}
+.search-bar {
+  width: 600px;
+  height: 50px;
+  border-radius: 20px;
+  margin: auto;
+  text-align: right;
+  padding: 20px;
+  border: 0px;
+  font-size: 18px;
+  font-family: lalezar;
+}
+.search-bar:focus {
+  outline: none;
+}
+.search-bar::placeholder {
+  color: var(--purpleDark-color);
+  font-family: lalezar;
+  font-size: 15px;
+}
+.buy-btn,
+.log-btn {
+  font-family: lalezar;
+}
+.countBuy {
+  position: absolute;
+  margin-top: -20px;
+  background-color: red;
+  width: 20px;
+  border-radius: 10px;
+}
+
+/* dark theme */
+
+.toggle {
+  background-color: purple;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  box-shadow: 0 0 50px 20px rgba(0, 0, 0, 0.1);
+  line-height: 1;
+}
+
+.input {
+  display: none;
+}
+
+.icon {
+  grid-column: 1 / 1;
+  grid-row: 1 / 1;
+  transition: transform 300ms;
+}
+
+.icon--moon {
+  transition-delay: 200ms;
+  color: black;
+}
+
+.icon--sun {
+  transform: scale(0);
+  color: yellow;
+}
+
+#switch:checked + .icon--moon {
+  transform: rotate(360deg) scale(0);
+}
+
+#switch:checked ~ .icon--sun {
+  transition-delay: 200ms;
+  transform: scale(1) rotate(360deg);
+}
+

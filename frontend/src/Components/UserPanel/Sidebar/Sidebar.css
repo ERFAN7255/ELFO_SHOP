@@ -1,0 +1,107 @@
+.profile {
+  border-radius: 15px;
+  margin-left: 30px;
+  position: relative;
+}
+.profile-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  width: 100%;
+  border: 1px solid var(--purpleDark-color);
+  border-radius: 15px;
+  margin-left: 30px;
+  padding: 20px;
+}
+.profile-img {
+  border-radius: 50%;
+  width: 50%;
+  margin-bottom: 20px;
+}
+.profile-name {
+  display: flex;
+  justify-content: center;
+  color: var(--font-color);
+}
+.profile-info {
+  text-align: center;
+  margin-bottom: 5px;
+  color: var(--font-color);
+}
+.profile-line {
+  border: 1px solid var(--purpleDark-color);
+  width: 100%;
+}
+.profile-exit {
+  width: 50%;
+  /* margin-top: 5px; */
+  padding: 8px;
+  background-color: unset;
+  border: 0;
+  font-family: lalezar;
+  cursor: pointer;
+  font-size: 15px;
+  background-color: var(--purpleDark-color);
+  border-radius: 15px;
+  color: white;
+  transition: all 1s;
+}
+.profile-exit:hover {
+  width: 90%;
+}
+.buy-menu {
+  border: 1px solid var(--purpleDark-color);
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.buy-menu-container {
+  padding: 0;
+}
+.buy-menu-container li {
+  font-size: 20px;
+  cursor: pointer;
+  width: 100%;
+  transition: all 0.3s ease;
+  display: flex;
+  justify-content: start;
+}
+.buy-menu-container li a {
+  padding: 8px 10px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.buy-menu-container {
+  list-style: none;
+}
+.buy-menu-container li a:hover {
+  background-color: var(--purpleLite-color);
+}
+.buy-menu-container li a.active {
+  background-color: var(--purpleDark-color);
+  color: #ffff;
+}
+.buy-menu-container li a.active i {
+  color: #ffff;
+}
+.buy-menu-container a {
+  color: black;
+}
+.buy-menu-container i {
+  margin-left: 8px;
+  cursor: pointer;
+  color: black;
+  font-size: 18px;
+}
+
+.count-Buy {
+  background-color: red;
+  width: 10%;
+  text-align: center;
+  border-radius: 20%;
+  margin-left: 5px;
+  font-size: 15px;
+}

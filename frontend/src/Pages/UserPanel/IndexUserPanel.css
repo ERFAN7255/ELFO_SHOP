@@ -1,0 +1,11 @@
+.dashbord {
+  margin: auto;
+  background-color: red;
+  height: 700px;
+  width: 75%;
+  border-radius: 15px;
+  margin-top: 50px;
+  background-color: var(--Header-color);
+  display: flex;
+  justify-content: left;
+}

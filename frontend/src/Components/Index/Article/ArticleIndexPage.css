@@ -1,0 +1,205 @@
+article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+.end-box {
+  background-color: white;
+  border-radius: 10px;
+  width: 88%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.end-box img {
+  width: 1rem;
+  margin-left: 1px;
+  margin-right: 5px;
+}
+.pishnahad {
+  margin-right: 40px;
+  font-size: 20px;
+  border-bottom: 2px solid var(--purpleDark-color);
+  padding: 10px;
+  color: whitesmoke;
+  font-weight: 100;
+}
+.see-all {
+  margin-left: 40px;
+  border: 0;
+  background-color: white;
+  color: var(--purpleDark-color);
+  font-family: lalezar;
+  font-size: 20px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.img-holder {
+  border-radius: 15px;
+  /* overflow: hidden; */
+  height: auto;
+  margin-bottom: 50px;
+  margin-top: 20px;
+  background-color: white;
+  box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+.img-holder .img-9 {
+  margin-bottom: 135px;
+}
+.off-box {
+  background-color: var(--purpleDark-color);
+  border-radius: 10px;
+  width: 90%;
+  height: auto;
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  margin-top: 100px;
+  box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+.off-box .flesh {
+  width: 1rem;
+  margin-left: 1px;
+  margin-right: 5px;
+}
+.off-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.see-all2 {
+  border: 0;
+  padding: 15px;
+  background-color: unset;
+  border-radius: 10px;
+  color: var(--purpleDark-color);
+  font-family: lalezar;
+  font-size: 20px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  color: white;
+}
+.see-all2:hover {
+  background-color: var(--purpleLite-color);
+  color: var(--purpleDark-color);
+}
+.items {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.desc {
+  font-size: 15px;
+  color: rgb(62, 56, 56);
+  margin: 10px 10px;
+  height: 20px;
+  text-align: right;
+  font-weight: 100;
+}
+.course-box {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 500px;
+  border-radius: 10px;
+  background-color: var(--Header-color);
+  transition: all 0.2s;
+  margin: 20px;
+}
+.box-title {
+  color: black;
+  margin-bottom: 20px;
+  font-size: 20px;
+  margin: 15px 0;
+}
+.box:hover .desc2 {
+  color: var(--purpleDark-color);
+}
+.course-box:hover {
+  transform: scale(101%);
+  box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+.p-right15 {
+  padding: 15px;
+}
+.box-teacher {
+  color: black;
+}
+.price {
+  margin-right: 10px;
+}
+.studentsCourse {
+  margin-left: 10px;
+  display: flex;
+  gap: 5px;
+}
+
+.box-price-child {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+hr {
+  border: 0.5px solid gray;
+}
+.desc2:hover {
+  color: var(--purpleDark-color);
+}
+.mod {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  align-items: center;
+  position: relative;
+}
+.price {
+  color: var(--purpleDark-color);
+}
+.box-img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  background-size: cover;
+}
+.flesh {
+  color: var(--purpleDark-color);
+}
+.swiper {
+  margin-top: -50px;
+}
+.swiper-pagination {
+  margin-bottom: -15px !important;
+}
+.Link-direction {
+  text-decoration: none;
+}
+.info {
+  margin: auto;
+  text-align: center;
+  transition: all 0.5s;
+}
+
+.info-link {
+  border-radius: 10px;
+  padding: 10px 10px;
+  background-color: var(--purpleDark-color);
+  color: white;
+}
+.info-link:hover {
+  width: 80%;
+}
+
+.text {
+  margin: 10px;
+}

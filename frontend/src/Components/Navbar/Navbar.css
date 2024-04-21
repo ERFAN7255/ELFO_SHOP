@@ -1,0 +1,29 @@
+.last-header {
+  display: flex;
+  background-color: var(--Header-color);
+  height: 50px;
+  color: var(--font-color);
+}
+.header-menu {
+  margin-right: 20px;
+}
+.header-menu li {
+  margin-right: 5px;
+  display: inline-block;
+  text-decoration: none;
+  height: auto;
+}
+.header-menu li a {
+  color: unset;
+  text-decoration: none;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-menu li a:hover {
+  border-bottom: 2px solid var(--purpleDark-color);
+}
+.header-menu li a.active {
+  border-bottom: 2px solid var(--purpleDark-color);
+}

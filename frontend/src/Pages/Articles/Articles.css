@@ -1,0 +1,10 @@
+.articles-container {
+  width: 90%;
+  margin: auto;
+}
+
+.all-article-boxs {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
+}

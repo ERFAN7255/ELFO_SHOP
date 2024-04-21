@@ -1,0 +1,25 @@
+@font-face {
+  font-family: lalezar;
+  src: url("/public/Fonts/Lalezar-Regular.ttf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: lalezar;
+  background-color: var(--purpleLite-color);
+}
+a {
+  text-decoration: none;
+}
+::-webkit-scrollbar {
+  width: 15px;
+  background-color: white;
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--purpleDark-color);
+  /* border-radius: 20px; */
+  height: 188px;
+}

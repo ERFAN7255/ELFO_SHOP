@@ -1,0 +1,38 @@
+.answer-ticket-containerChat {
+  display: flex;
+  flex-direction: column;
+}
+
+.answer-ticket-containerChat-user {
+  width: 55%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  gap: 10px;
+}
+
+.answer-ticket-user {
+  font-size: 16px;
+  color: white;
+}
+.answer-ticket-body {
+    background-color: var(--purpleLite-color);
+    font-size: 16px;
+    padding: 10px;
+    text-align: right;
+    border-radius: 10px;
+}
+
+.answer-ticket-containerChat-admin {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 10px;
+}
+
+.answer-ticket-admin {
+  font-size: 16px;
+  color: white;
+}
