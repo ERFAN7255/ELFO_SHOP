@@ -2,7 +2,32 @@
 
 ---
 
-### !instructions
+# instructions
+
+## run frontend project
+
+```javascript
+1 cd frontend
+```
+```javascript
+2 npm i
+```
+```javascript
+3 npm start
+```
+
+## run backend project
+
+```javascript
+1 cd backend
+```
+```javascript
+2 npm i
+```
+```javascript
+3 npm start
+```
+
 
 
 
