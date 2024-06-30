@@ -9,7 +9,6 @@ export default function Header() {
   const authContext = useContext(AuthContext);
   const [searchValue, setSearchValue] = useState("");
   const navigate = useNavigate();
-  const inputSearch = document.querySelector(".search-bar");
   const root = document.documentElement;
   const ele = document.querySelector(":root");
   const cs = getComputedStyle(ele);
@@ -108,7 +107,7 @@ export default function Header() {
             سبد خرید<span className="countBuy">{authContext.countBuy}</span>
           </Link>
         )}
-        <label for="switch" className="toggle" onClick={changeTheme}>
+        <label htmlFor="switch" className="toggle" onClick={changeTheme}>
           <input type="checkbox" className="input" id="switch" />
           <div className="icon icon--moon">
             <svg
@@ -119,9 +118,9 @@ export default function Header() {
               height="32"
             >
               <path
-                fill-rule="evenodd"
+                fillRule="evenodd"
                 d="M9.528 1.718a.75.75 0 01.162.819A8.97 8.97 0 009 6a9 9 0 009 9 8.97 8.97 0 003.463-.69.75.75 0 01.981.98 10.503 10.503 0 01-9.694 6.46c-5.799 0-10.5-4.701-10.5-10.5 0-4.368 2.667-8.112 6.46-9.694a.75.75 0 01.818.162z"
-                clip-rule="evenodd"
+                clipRule="evenodd"
               ></path>
             </svg>
           </div>

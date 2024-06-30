@@ -28,7 +28,11 @@ function App() {
     const localStorageData = JSON.parse(localStorage.getItem("user"));
     if (localStorageData) {
       fetch(`http://localhost:4000/v1/auth/me`, {
-        headers: { Authorization: `Bearer ${localStorageData.token}` },
+        method: "GET",
+        headers: {
+          Authorization: `Bearer ${localStorageData.token}`,
+          "Content-Type": "application/json",
+        },
       })
         .then((res) => res.json())
         .then((userData) => {
@@ -37,10 +41,9 @@ function App() {
         });
 
       fetch("http://localhost:4000/v1/orders", {
+        method: "GET",
         headers: {
-          Authorization: `Bearer ${
-            JSON.parse(localStorage.getItem("user")).token
-          }`,
+          Authorization: `Bearer ${localStorageData.token}`,
           "Content-Type": "application/json",
         },
       })
@@ -51,7 +54,7 @@ function App() {
     } else {
       setIsLoggedIn(false);
     }
-  }, [login, logout]);
+  }, [logout]);
 
   // useEffect(() => {
   //   if (isLoggedIn) {
